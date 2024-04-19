@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLInterface</id><coordinates><x>540</x><y>50</y><w>100</w><h>100</h></coordinates><panel_attributes>Hervivoro
+--
+/+comer():void/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>90</y><w>170</w><h>90</h></coordinates><panel_attributes>/Animal/
+-
+-especie:String
+-genero:String
+-edad:int
+-
++respirar():void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>300</y><w>170</w><h>70</h></coordinates><panel_attributes>Venado
+-
+tieneCuernos:boolean
+-
+comer():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>100</y><w>230</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;.
+se  comporta como</panel_attributes><additional_attributes>190;10;10;200</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>130</y><w>170</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-
+es un</panel_attributes><additional_attributes>10;10;150;170</additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>470</y><w>160</w><h>90</h></coordinates><panel_attributes>Polimorfismo
+-
+_+main(String[]):void_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>160</y><w>50</w><h>330</h></coordinates><panel_attributes>lt=&lt;..
+Usa</panel_attributes><additional_attributes>10;10;10;310</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>360</y><w>100</w><h>140</h></coordinates><panel_attributes>lt=&lt;..
+Usa</panel_attributes><additional_attributes>80;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>50</y><w>350</w><h>480</h></coordinates><panel_attributes>lt=&lt;..
+Usa</panel_attributes><additional_attributes>290;10;310;460;10;460</additional_attributes></element></diagram>
